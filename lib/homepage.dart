@@ -150,7 +150,7 @@ class _ImageTextOverlayPageState extends State<ImageTextOverlayPage> {
                         child: Stack(
                           alignment: Alignment.center,
                           children: [
-                            Image.network(
+                            Image.asset(
                               "https://ibb.co/ZJHbJB3",
                               height: 727,
                               width: 1111,
